@@ -72,7 +72,7 @@ denote that it applies only to the local storage:\
 **fetch.max.wait.ms**
 
 |                                                                                                                                                                                                                                                             |
-|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `The maximum amount of time the server will block before answering the fetch request when it is reading near to the tail of the partition (high-watermark) and there isn't sufficient data to immediately satisfy the requirement given by fetch.min.bytes` |
 
 New metric will be added to measure the amount of time taken to read
